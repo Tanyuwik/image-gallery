@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Image gallery</title>
+</head>
+
+<body>
+  <div class="body_wrapper">
+
+    <h1>Unsplash API</h1>
+    <hr>
+    <div class="form_gallery">
+      <form action="/">
+        <div class="wrapper">
+          <input type="text" id="search" placeholder="Search..." autocomplete="off" autofocus>
+          <button type="reset" title="Click me" id="reset">&times;</button>
+          <button id="search-btn">Search</button>
+        </div>
+      </form>
+
+      <div class="gallery">
+        <div class="gallery_results"></div>
+      </div>
+    </div>
+
+    <button id="load-btn">Load more</button>
+
+    <footer>
+      <div class="footer_links">
+        <p class="footer_links_year">2023</p>
+        <a href="https://rs.school/js-stage0/">
+          <img src="image/rs_school_js_logo.svg" class="footer_links_logo" alt="logo">
+        </a>
+        <p class="footer_links_info">
+          <a href="https://github.com/Tanyuwik" target="_blank">Tanyuwik</a>
+        </p>
+      </div>
+    </footer>
+    
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
